@@ -1,0 +1,518 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<title>졸업생 동창사진</title> 
+	<script text="text/JavaScript">
+	/* 이미지 크기에 맞게 새창 열기*/
+	function showImgWin(what) {
+	  var imgwin =window.open("",'WIN','scrollbars=no,status=no,toolbar=no,resizable=1,location=no,menu=no,width=10,height=10');
+	  imgwin.focus();
+	  imgwin.document.open();
+	  imgwin.document.write("<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>\n");
+	  imgwin.document.write("<html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8'>\n"); // euc-kr? utf-8?
+	  imgwin.document.write("<title>큰이미지</title>\n");   // 새창으로 페이지 제목
+	  imgwin.document.write("<sc"+"ript>\n");
+	  imgwin.document.write("function resize() {\n");
+	  imgwin.document.write("pic = document.il;\n");
+	  //imgwin.document.write("alert(eval(pic).height);\n");
+	  imgwin.document.write("if (eval(pic).height) { var name = navigator.appName\n");
+	  imgwin.document.write("  if (name == 'Microsoft Internet Explorer') { myHeight = eval(pic).height + 60;  myWidth = eval(pic).width + 10;\n");
+	  imgwin.document.write("  } else { myHeight = eval(pic).height + 100; myWidth = eval(pic).width + 100; }\n");
+	  imgwin.document.write("  clearTimeout();\n");
+	  imgwin.document.write("  var height = screen.height;\n");
+	  imgwin.document.write("  var width = screen.width;\n");
+	  imgwin.document.write("  var leftpos = width / 2 - myWidth / 2;\n"); //hjhj
+	  imgwin.document.write("  var toppos = height / 2 - myHeight / 2; \n");
+	  imgwin.document.write("  self.moveTo(leftpos, toppos);\n");
+	  imgwin.document.write("  self.resizeTo(myWidth, myHeight);\n");
+	  imgwin.document.write("}else setTimeOut(resize(), 100);}\n");
+	  imgwin.document.write("</sc"+"ript>\n");
+	  imgwin.document.write("</head><body style='margin:0px;padding:0px'>");
+	  imgwin.document.write("<a href='#' onclick='javascript:window.close()'><img border='0' src='"+what+"' xwidth='100' xheight='50' name='il' onload='resize();' alt='이미지를 클릭하면 창이 닫힙니다.' title='이미지를 클릭하면 창이 닫힙니다.'></a>\n");
+	  imgwin.document.write("</body></html>");
+	  imgwin.document.close();
+	}
+	</script>
+	<style type='text/css'> 
+		#rem1{font-size:1.8rem;}
+		#rem2{font-size:1.5rem;}
+		#rem3{font-size:1.2rem;}
+		.a {background-color:#7423C7;}
+		.b {background-color:#EFF5FB;}
+		a {text-decoration:none }
+		table {text-align:center;}
+		tr {height:40px; font-size:1.2rem;}
+		td {font-weight:normal;text-indent: 0.3em;}
+		div {font-size:2.0rem; font-weight:bold;t ext-align:center; font-family:sans-serif;}
+		p {font-size:2.5rem; text-align:center; font-weight:bold;}
+	.dropmenu{ border:none; border:0px; margin:0px; padding:0px; font: "sans-serif"; font-size:24px; }
+	.dropmenu ul{ background: #666; height:50px; list-style:none; margin:0; padding:0; }
+	.dropmenu li{ width:160px; float:left; padding:0px; }
+	.dropmenu li a{ background: purple; color:#fff; display:block; line-height:50px; margin:0px; padding:0px; text-align:center; text-decoration:none; }
+	.dropmenu li a:hover, .dropmenu ul li:hover a{ background: #6603CC; color:#FFFFFF; text-decoration:none; }
+	.dropmenu li ul{ background: red; display:none; height:auto; border:0px; position:absolute; width:160px; }
+	.dropmenu li:hover ul{ display:block; }
+	.dropmenu li li { background: gray; display:block; float:none; margin:0px; padding:0px; width:160px; }
+	.dropmenu li:hover li a{ background:none; }
+	.dropmenu li ul a{ display:block; height:50px; font-size:20px; font-weight: bold; margin:0px; padding:0px; text-align:center; }
+	.dropmenu li ul a:hover, .dropmenu li ul li:hover a{ background: red; border:0px; color:#ffffff; text-decoration:none; }
+	.dropmenu p{ clear:left; }
+	</style> 
+</head>  
+
+<body align=center>  
+<div align=center><img src=image/sunflower1.jpg width=960>
+<table cellspacing=0 cellpadding=0 width=960 valign=top align=center>
+<tr><td>
+<div class="dropmenu">
+<ul>
+  <li><a href="#">동창회</a>
+   <ul>
+   	 <li><a href=cp56.html>동창회</a></li>
+	 <li><a href=yeonhyeok.html>동창회연혁</a></li>
+     <li><a href=hwechik.html>동창회칙</a></li>
+     <li><a href=imwon.html>임원명단(4기)</a></li>
+   </ul>
+  </li>
+ <li><a href="#" >동창들</a>
+  <ul>
+     <li><a href=hwewon.html>동창명단</a></li>
+	 <li><a href=sajin.html>사진첩</a></li>
+     <li><a href=danche.html>단체사진</a></li>
+   </ul>
+ </li>
+ <li><a href="#">회비출납</a>
+   <ul>
+    <li><a href=chulnab_22.html>'22년</a></li>
+	<li><a href=chulnab_21.html>'21년</a></li>
+	<li><a href=chulnab_20.html>'20년</a></li>
+	<li><a href=chulnab_19.html>'19년</a></li>
+	<li><a href=chulnab_18.html>'18년</a></li>
+	<li><a href=chulnab_17.html>'17년</a></li>
+	<li><a href=chulnab_16.html>'16년</a></li>
+	<li><a href=chulnab_15.html>'15년</a></li>
+	<li><a href=chulnab_14.html>'14년</a></li>
+	<li><a href=chulnab_13.html>'13년</a></li>
+   </ul>
+</li>
+ <li><a href="#">재무결산</a>
+   <ul>
+	<li><a href=gyeolsan_22.html>'22년</a></li>
+	<li><a href=gyeolsan_21.html>'21년</a></li>
+	<li><a href=gyeolsan_20.html>'20년</a></li>
+	<li><a href=gyeolsan_19.html>'19년</a></li>
+	<li><a href=gyeolsan_18.html>'18년</a></li>
+	<li><a href=gyeolsan_17.html>'17년</a></li>
+	<li><a href=gyeolsan_16.html>'16년</a></li>
+	<li><a href=gyeolsan_15.html>'15년</a></li>
+	<li><a href=gyeolsan_14.html>'14년</a></li>
+	<li><a href=gyeolsan_13.html>'13년</a></li>
+   </ul>
+</li>
+ <li><a href="#">재정활동</a>
+   <ul>
+     <li><a href="chanjo.html">찬조금</a></li>
+     <li><a href="gyeongjo.html">경조현황</a></li>
+   </ul>
+</li>
+ <li><a href="#">고향창평</a>
+   <ul>
+     <li><a href="changpyeong.html">내고향 창평</a></li>
+     <li><a href="munhwajae.html">창평의 문화재</a></li>
+   </ul>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table> 
+
+<br>
+<table cellspacing=0 cellpadding=0 width=960px valign=top align=center border=0>
+      <tr align="center"><td colspan="14"><font size="6pt"><b>창평초등 56회 졸업생 동창 사진</font></b><font size="3pt">[가나다順]</font></td></tr>
+      <tr><td>&nbsp;</td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/강동윤.jpg')"><img src="image/강동윤.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/강순석.jpg')"><img src="image/강순석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/강태중.jpg')"><img src="image/강태중.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고권석.jpg')"><img src="image/고권석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고만순.jpg')"><img src="image/고만순.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>강 동 윤</td><td width="20"></td>
+        <td><b>강 보 원</td><td width="20"></td>
+        <td><b>강 순 석</td><td width="20"></td>
+        <td><b>강 태 중</td><td width="20"></td>
+        <td><b>고 공 순</td><td width="20"></td>
+        <td><b>고 권 석</td><td width="20"></td>
+        <td><b>고 만 순</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/고병숙.jpg')"><img src="image/고병숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고성숙.jpg')"><img src="image/고성숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고영진.jpg')"><img src="image/고영진.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고영택.jpg')"><img src="image/고영택.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고재량.jpg')"><img src="image/고재량.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>고 병 숙</td><td width="20"></td>
+        <td><b>고 성 숙</td><td width="20"></td>
+        <td><b>고 영 진</td><td width="20"></td>
+        <td><b>고 영 택</td><td width="20"></td>
+        <td><b>고 재 량</td><td width="20"></td>
+        <td><b>고 재 숙</td><td width="20"></td>
+        <td><b>고 재 전</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/고천석.jpg')"><img src="image/고천석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고현석.jpg')"><img src="image/고현석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고화석.jpg')"><img src="image/고화석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/고효남.jpg')"><img src="image/고효남.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/곽경숙.jpg')"><img src="image/곽경숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김남준.jpg')"><img src="image/김남준.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김동표.jpg')"><img src="image/김동표.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>고 천 석</td><td width="20"></td>
+        <td><b>고 현 석</td><td width="20"></td>
+        <td><b>고 화 석</td><td width="20"></td>
+        <td><b>고 효 남</td><td width="20"></td>
+        <td><b>곽 경 숙</td><td width="20"></td>
+        <td><b>김 남 준</td><td width="20"></td>
+        <td><b>김 동 표</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/김만순.jpg')"><img src="image/김만순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김명자.jpg')"><img src="image/김명자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김복덕.jpg')"><img src="image/김복덕.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김상기.jpg')"><img src="image/김상기.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김순이.jpg')"><img src="image/김순이.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김영묵.jpg')"><img src="image/김영묵.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김영석.jpg')"><img src="image/김영석.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>김 만 순</td><td width="20"></td>
+        <td><b>김 명 자</td><td width="20"></td>
+        <td><b>김 복 덕</td><td width="20"></td>
+        <td><b>김 상 기</td><td width="20"></td>
+        <td><b>김 순 이</td><td width="20"></td>
+        <td><b>김 영 묵</td><td width="20"></td>
+        <td><b>김 영 석</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김인자.jpg')"><img src="image/김인자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/김정중.jpg')"><img src="image/김정중.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/나선주.jpg')"><img src="image/나선주.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/나승연.jpg')"><img src="image/나승연.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/문용순.jpg')"><img src="image/문용순.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>김 인 권</td><td width="20"></td>
+        <td><b>김 인 자</td><td width="20"></td>
+        <td><b>김 정 중</td><td width="20"></td>
+        <td><b>나 병 선</td><td width="20"></td>
+        <td><b>나 선 주</td><td width="20"></td>
+        <td><b>나 승 연</td><td width="20"></td>
+        <td><b>문 용 순</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박명효.jpg')"><img src="image/박명효.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박수남.jpg')"><img src="image/박수남.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박영남.jpg')"><img src="image/박영남.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박영자.jpg')"><img src="image/박영자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박영진.jpg')"><img src="image/박영진.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박정호.jpg')"><img src="image/박정호.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>문 채 한</td><td width="20"></td>
+        <td><b>박 명 효</td><td width="20"></td>
+        <td><b>박 수 남</td><td width="20"></td>
+        <td><b>박 영 남</td><td width="20"></td>
+        <td><b>박 영 자</td><td width="20"></td>
+        <td><b>박 영 진</td><td width="20"></td>
+        <td><b>박 정 호</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/박종수.jpg')"><img src="image/박종수.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/박태용.jpg')"><img src="image/박태용.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/봉순자.jpg')"><img src="image/봉순자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/서갑수.jpg')"><img src="image/서갑수.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/손동환.jpg')"><img src="image/손동환.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/송민선.jpg')"><img src="image/송민선.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/송태구.jpg')"><img src="image/송태구.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>박 종 수</td><td width="20"></td>
+        <td><b>박 태 용</td><td width="20"></td>
+        <td><b>봉 순 자</td><td width="20"></td>
+        <td><b>서 갑 수</td><td width="20"></td>
+        <td><b>손 동 환</td><td width="20"></td>
+        <td><b>송 민 선</td><td width="20"></td>
+        <td><b>송 태 구</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/송호기.jpg')"><img src="image/송호기.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/신귀순.jpg')"><img src="image/신귀순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/신영순.jpg')"><img src="image/신영순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/신진수.jpg')"><img src="image/신진수.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/신형섭.jpg')"><img src="image/신형섭.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>송 호 기</td><td width="20"></td>
+        <td><b>신 귀 순</td><td width="20"></td>
+        <td><b>신 영 순</td><td width="20"></td>
+        <td><b>신 진 수</td><td width="20"></td>
+        <td><b>신 형 균</td><td width="20"></td>
+        <td><b>신 형 섭</td><td width="20"></td>
+        <td><b>양 기 연</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/양판례.jpg')"><img src="image/양판례.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/위연석.jpg')"><img src="image/위연석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/위정민.jpg')"><img src="image/위정민.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/유성춘.jpg')"><img src="image/유성춘.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/유영담.jpg')"><img src="image/유영담.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/윤설장.jpg')"><img src="image/윤설장.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/윤치복.jpg')"><img src="image/윤치복.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>양 판 례</td><td width="20"></td>
+        <td><b>위 연 석</td><td width="20"></td>
+        <td><b>위 정 민</td><td width="20"></td>
+        <td><b>유 성 춘</td><td width="20"></td>
+        <td><b>유 영 담</td><td width="20"></td>
+        <td><b>윤 설 장</td><td width="20"></td>
+        <td><b>윤 치 복</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/이경숙.jpg')"><img src="image/이경숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이경임.jpg')"><img src="image/이경임.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이교관.jpg')"><img src="image/이교관.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이도하.jpg')"><img src="image/이도하.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이동석.jpg')"><img src="image/이동석.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이동호.jpg')"><img src="image/이동호.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이병수.jpg')"><img src="image/이병수.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>이 경 숙</td><td width="20"></td>
+        <td><b>이 경 임</td><td width="20"></td>
+        <td><b>이 교 관</td><td width="20"></td>
+        <td><b>이 도 하</td><td width="20"></td>
+        <td><b>이 동 석</td><td width="20"></td>
+        <td><b>이 동 호</td><td width="20"></td>
+        <td><b>이 병 수</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/이병율.jpg')"><img src="image/이병율.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이상수.jpg')"><img src="image/이상수.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이용숙.jpg')"><img src="image/이용숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이재순.jpg')"><img src="image/이재순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이재윤.jpg')"><img src="image/이재윤.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이재진.jpg')"><img src="image/이재진.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이재환.jpg')"><img src="image/이재환.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>이 병 율</td><td width="20"></td>
+        <td><b>이 상 수</td><td width="20"></td>
+        <td><b>이 용 숙</td><td width="20"></td>
+        <td><b>이 재 순</td><td width="20"></td>
+        <td><b>이 재 윤</td><td width="20"></td>
+        <td><b>이 재 진</td><td width="20"></td>
+        <td><b>이 재 환</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/이정자.jpg')"><img src="image/이정자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이현선.jpg')"><img src="image/이현선.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이현필.jpg')"><img src="image/이현필.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/이형철.jpg')"><img src="image/이형철.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/임병채.jpg')"><img src="image/임병채.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/임춘호.jpg')"><img src="image/임춘호.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/전규봉.jpg')"><img src="image/전규봉.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>이 정 자</td><td width="20"></td>
+        <td><b>이 현 선</td><td width="20"></td>
+        <td><b>이 현 필</td><td width="20"></td>
+        <td><b>이 형 철</td><td width="20"></td>
+        <td><b>임 병 채</td><td width="20"></td>
+        <td><b>임 춘 호</td><td width="20"></td>
+        <td><b>전 규 봉</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/전규호.jpg')"><img src="image/전규호.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/전용환.jpg')"><img src="image/전용환.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정병갑.jpg')"><img src="image/정병갑.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정병일.jpg')"><img src="image/정병일.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정순례.jpg')"><img src="image/정순례.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정영희.jpg')"><img src="image/정영희.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정용환.jpg')"><img src="image/정용환.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>전 규 호</td><td width="20"></td>
+        <td><b>전 용 환</td><td width="20"></td>
+        <td><b>정 병 갑</td><td width="20"></td>
+        <td><b>정 병 일</td><td width="20"></td>
+        <td><b>정 순 례</td><td width="20"></td>
+        <td><b>정 영 희</td><td width="20"></td>
+        <td><b>정 용 환</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/정우춘.jpg')"><img src="image/정우춘.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정윤경.jpg')"><img src="image/정윤경.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/정해원.jpg')"><img src="image/정해원.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/조경환.jpg')"><img src="image/조경환.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/조양훈.jpg')"><img src="image/조양훈.jpg" width=120 height=120></a></td><td width="20"></td>
+
+      </tr>
+     <tr>
+        <td><b>정 우 춘</td><td width="20"></td>
+        <td><b>정 윤 경</td><td width="20"></td>
+        <td><b>정 종 기</td><td width="20"></td>
+        <td><b>정 해 원</td><td width="20"></td>
+        <td><b>정 현 종</td><td width="20"></td>
+        <td><b>조 경 환</td><td width="20"></td>
+        <td><b>조 양 훈</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/조연자.jpg')"><img src="image/조연자.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/조용순.jpg')"><img src="image/조용순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/지윤길.jpg')"><img src="image/지윤길.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채송원.jpg')"><img src="image/채송원.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채정원.jpg')"><img src="image/채정원.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채종익.jpg')"><img src="image/채종익.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>조 연 자</td><td width="20"></td>
+        <td><b>조 오 현</td><td width="20"></td>
+        <td><b>조 용 순</td><td width="20"></td>
+        <td><b>지 윤 길</td><td width="20"></td>
+        <td><b>채 송 원</td><td width="20"></td>
+        <td><b>채 정 원</td><td width="20"></td>
+        <td><b>채 종 익</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/채종주.jpg')"><img src="image/채종주.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채찬기.jpg')"><img src="image/채찬기.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채희일.jpg')"><img src="image/채희일.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/채희천.jpg')"><img src="image/채희천.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최경주.jpg')"><img src="image/최경주.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최광봉.jpg')"><img src="image/최광봉.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>채 종 주</td><td width="20"></td>
+        <td><b>채 찬 기</td><td width="20"></td>
+        <td><b>채 희 일</td><td width="20"></td>
+        <td><b>채 희 천</td><td width="20"></td>
+        <td><b>채 희 팔</td><td width="20"></td>
+        <td><b>최 경 주</td><td width="20"></td>
+        <td><b>최 광 봉</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최길호.jpg')"><img src="image/최길호.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최동주.jpg')"><img src="image/최동주.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최명숙.jpg')"><img src="image/최명숙.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최방락.jpg')"><img src="image/최방락.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최병남.jpg')"><img src="image/최병남.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>최 광 순</td><td width="20"></td>
+        <td><b>최 길 호</td><td width="20"></td>
+        <td><b>최 도 락</td><td width="20"></td>
+        <td><b>최 동 주</td><td width="20"></td>
+        <td><b>최 명 숙</td><td width="20"></td>
+        <td><b>최 방 락</td><td width="20"></td>
+        <td><b>최 병 남</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/최병현.jpg')"><img src="image/최병현.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최숙락.jpg')"><img src="image/최숙락.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최순신.jpg')"><img src="image/최순신.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최영실.jpg')"><img src="image/최영실.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최영익.jpg')"><img src="image/최영익.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>최 병 현</td><td width="20"></td>
+        <td><b>최 숙 락</td><td width="20"></td>
+        <td><b>최 순 신</td><td width="20"></td>
+        <td><b>최 순 옥</td><td width="20"></td>
+        <td><b>최 시 홍</td><td width="20"></td>
+        <td><b>최 영 실</td><td width="20"></td>
+        <td><b>최 영 익</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td><a href="javascript:showImgWin('image/최임락.jpg')"><img src="image/최임락.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최정임.jpg')"><img src="image/최정임.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최항락.jpg')"><img src="image/최항락.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/최형락.jpg')"><img src="image/최형락.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/하경순.jpg')"><img src="image/하경순.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/한명희.jpg')"><img src="image/한명희.jpg" width=120 height=120></a></td><td width="20"></td>
+        <td><a href="javascript:showImgWin('image/현영복.jpg')"><img src="image/현영복.jpg" width=120 height=120></a></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>최 임 락</td><td width="20"></td>
+        <td><b>최 정 임</td><td width="20"></td>
+        <td><b>최 항 락</td><td width="20"></td>
+        <td><b>최 형 락</td><td width="20"></td>
+        <td><b>하 경 순</td><td width="20"></td>
+        <td><b>한 명 희</td><td width="20"></td>
+        <td><b>현 영 복</td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50></td></tr>
+      <tr>
+        <td width=120 height=120></td><td width="20"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td><td width="20"></td>
+        <td></td><td width="20"></td>
+      </tr>
+     <tr>
+        <td><b>황 정 연</td><td width="20"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><b></td><td width="20"></td>
+        <td><b></td><td width="20"></td>
+      </tr>
+      <tr><td colspan=14 height=50 align=center><b>※ 자신의 멋진 사진을 보내 주세요~</td></tr>
+  </table>
+</td></tr></table>
+</body>
+</html>
